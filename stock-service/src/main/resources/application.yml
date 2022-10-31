@@ -1,0 +1,19 @@
+server:
+  port: 9052
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://35.192.79.18:7878/StockServiceDB
+    username: postgres
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+
+

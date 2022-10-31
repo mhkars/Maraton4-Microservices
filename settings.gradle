@@ -1,0 +1,4 @@
+rootProject.name = 'Maraton-Mikroservis'
+include 'product-service'
+include 'stock-service'
+
